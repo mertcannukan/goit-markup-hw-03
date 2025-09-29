@@ -2,14 +2,30 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1,h2,h3,h4,h5,h5,p,ul{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .headercss {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   justify-content: center;
-  gap: 250px;
+  gap: 150px;
   align-items: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 .logocss {
   display: flex;
@@ -108,7 +124,7 @@ a:hover {
 
 .addresscss {
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
 .addresscssmail {
@@ -149,14 +165,12 @@ a:hover {
 
 .bannercss {
   background-color: #2e2f42;
-  height: 600px;
 }
 
 .h1css {
   width: 496px;
   text-align: center;
   margin: 0 auto;
-  padding-top: 160px;
 }
 
 .header1css {
@@ -167,8 +181,9 @@ a:hover {
 }
 
 .btncss {
-  padding-top: 10px;
-  padding-left: 590px;
+  padding-top: 60px;
+  padding-left: 496px;
+
 }
 
 .buttoncss {
@@ -180,6 +195,7 @@ a:hover {
   font-weight: 500;
   cursor: pointer;
   border-radius: 4px;
+  border-style: none;
 }
 
 .buttoncss:hover {
@@ -191,12 +207,11 @@ a:hover {
   font-weight: 500;
   cursor: pointer;
   border-radius: 4px;
+  border-style: none;
 }
 
 .subjectscss {
   width: 1128px;
-  margin-top: 100px;
-  margin-left: 100px;
   display: flex;
   gap: 10px;
 }
@@ -223,8 +238,6 @@ a:hover {
 
 .ourteamcss {
   background-color: #f4f4fd;
-  margin-top: 100px;
-  height: 732px;
 }
 .ourteamcss li {
   list-style: none;
@@ -244,11 +257,12 @@ a:hover {
   color: #2e2f42;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 72px;
 }
 
 .ourteamstaff {
   display: flex;
-  justify-content: space-around;
+  gap: 32px;
 }
 
 /**
@@ -280,7 +294,7 @@ a:hover {
 .namecss {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -289,17 +303,16 @@ a:hover {
 .titlecss {
   font-style: normal;
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
 
 .portfolio {
-  border: 1px solid #e7e9fc;
+  /*border: 1px solid #e7e9fc;*/
   width: 1128px;
   margin: 0 auto;
-  margin-top: 120px;
 }
 
 .portfolio li {
@@ -311,7 +324,6 @@ a:hover {
   gap: 8px;
   justify-content: center;
   padding-right: 40px;
-  margin-bottom: 30px;
 }
 .portfolioGroup2 {
   display: flex;
@@ -327,6 +339,7 @@ a:hover {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 
 .portfoliofontcss {
@@ -352,12 +365,10 @@ a:hover {
 
 .footerbgcss {
   background-color: #2e2f42;
-  height: 312px;
-  margin-top: 120px;
 }
 
 .footerinfocss {
-  padding: 100px;
+  padding-left: 100px;
 }
 
 .footerinfofontcss p {
