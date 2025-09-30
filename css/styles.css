@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h5,p,ul{
 }
 
 .container{
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
 }
 
@@ -22,10 +22,10 @@ h1,h2,h3,h4,h5,h5,p,ul{
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 200px;
   align-items: center;
-  padding-bottom: 16px;
-  padding-top: 16px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .logocss {
   display: flex;
@@ -182,7 +182,7 @@ a:hover {
 
 .btncss {
   padding-top: 60px;
-  padding-left: 496px;
+  padding-left: 630px;
 
 }
 
@@ -211,9 +211,11 @@ a:hover {
 }
 
 .subjectscss {
-  width: 1128px;
   display: flex;
-  gap: 10px;
+  gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+
 }
 
 .subjectscss li {
@@ -256,13 +258,13 @@ a:hover {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  padding-top: 30px;
   padding-bottom: 72px;
 }
 
 .ourteamstaff {
   display: flex;
-  gap: 32px;
+  gap: 24px;
+  justify-content: center;
 }
 
 /**
@@ -294,7 +296,7 @@ a:hover {
 .namecss {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 3.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -303,10 +305,11 @@ a:hover {
 .titlecss {
   font-style: normal;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 .portfolio {
@@ -321,21 +324,19 @@ a:hover {
 }
 .portfolioGroup1 {
   display: flex;
-  gap: 8px;
+  gap: 24px;
   justify-content: center;
-  padding-right: 40px;
 }
 .portfolioGroup2 {
   display: flex;
-  gap: 8px;
+  gap: 24px;
   justify-content: center;
-  padding-right: 40px;
 }
 
 .ourportfoliocss {
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.5;
+  line-height: 3.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -345,7 +346,7 @@ a:hover {
 .portfoliofontcss {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 3.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -353,9 +354,10 @@ a:hover {
 .apptitlecss {
   font-style: normal;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 .portfolio-img {
